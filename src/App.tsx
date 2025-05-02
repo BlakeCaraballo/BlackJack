@@ -1,13 +1,11 @@
-import React from "react";
-import { Container } from "react-bootstrap";
+import Game from "./components/Game/Game";
 
-const App = () => {
+function App() {
   return (
-    <Container className="text-center mt-5">
-      <h1>♠️ Blackjack Game ♥️</h1>
-      <p>Let’s play some cards!</p>
-    </Container>
+    <div className="container mt-5">
+      <Game />
+    </div>
   );
-};
+}
 
 export default App;

@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif; /* Optional for better styling */
+  background-color: var(--background-color); /* For dark mode */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#root {
+  height: 100%;
+  width: 100%; /* Ensure the root div fills the page */
+}
+
+.container {
+  height: 100vh; /* Full height of the viewport */
+  width: 100%; /* Ensure the container takes full width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the game vertically */
+  align-items: center; /* Centers the game horizontally */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+h4,
+p {
+  font-size: 1.5rem;
+}
+
+h3.text-info {
+  font-size: 2rem;
+  color: #17a2b8;
+}
+
+/* Light Mode Styles */
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode .btn {
+  background-color: lightgray;
+  color: black;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .btn {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #444;
+}
